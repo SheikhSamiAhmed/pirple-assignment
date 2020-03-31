@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMANTIC</title>
+
+</head>
+<body>
+    <article class="day-forecast">
+        <h2>03 March 2018</h2>
+        <p>Rain.</p>
+    </article>
+    <article class="day-forecast">
+        <h2>04 March 2018</h2>
+        <p>Periods of rain.</p>
+    </article>
+    <article class="day-forecast">
+        <h2>05 March 2018</h2>
+        <p>Heavy rain.</p>
+    </article>
+    <details>
+        <summary>Details</summary>
+        Something small enough to escape casual notice.
+    </details>
+
+    <dialog open>
+        <p>Greetings, one and all!</p>
+      </dialog>
+      <br>
+
+    
+      <!-- Simple pop-up dialog box containing a form -->
+<dialog id="favDialog">
+    <form method="dialog">
+      <p><label>Favorite animal:
+        <select>
+          <option></option>
+          <option>Brine shrimp</option>
+          <option>Red panda</option>
+          <option>Spider monkey</option>
+        </select>
+      </label></p>
+      <menu>
+        <button value="cancel">Cancel</button>
+        <button id="confirmBtn" value="default">Confirm</button>
+      </menu>
+    </form>
+  </dialog>
+  
+  <menu>
+    <button id="updateDetails">Update details</button>
+  </menu>
+
+
+  <!-- A <div> element with a context menu -->
+<div contextmenu="popup-menu">
+    Right-click to see the adjusted context menu
+  </div>
+  
+  <menu type="context" id="popup-menu">
+    <menuitem>Action</menuitem>
+    <menuitem>Another action</menuitem>
+    <hr/>
+    <menuitem>Separated action</menuitem>
+  </menu>
+  
+  <output aria-live="polite"></output>
+
+
+  <nav class="crumbs">
+    <ol>
+        <li class="crumb"><a href="bikes">Bikes</a></li>
+        <li class="crumb"><a href="bikes/bmx">BMX</a></li>
+        <li class="crumb">Jump Bike 3000</li>
+    </ol>
+</nav>
+
+<h1>Jump Bike 3000</h1>
+<p>This BMX bike is a solid step into the pro world. It looks as legit as it rides and is built to polish your skills.</p>
+<h1>How to Fish</h1>
+<section>
+    <h2>Introduction</h2>
+    <p>People have been catching fish for food since before recorded history…</p>
+</section>
+
+<section>
+    <h2>Equipment</h2>
+    <p>The first thing you’ll need is a fishing rod or pole that you find comfortable and is strong enough for the kind of fish you’re expecting to land…</p>
+</section>
+</body>
+</html>

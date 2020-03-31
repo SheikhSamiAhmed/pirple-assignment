@@ -1,0 +1,75 @@
+
+nav footer{
+    height: 50px;
+    background-color: teal;
+    width: 100%;
+color white
+}
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+line-height: 10px;
+
+}
+nav ul li{
+margin-left: 10px;
+margin right: 10px;
+}
+
+#intro{
+    text-align: center;
+}
+
+dono ke bech me  show hoga 
+
+main article{
+    display:flex
+    flex-flow: row nowrap;
+margin: 0 20px;
+   
+}
+
+hmny blog-text ke id bnae section me
+
+#blog-text{
+    width: 50;
+    margin: 0 ,20;
+    font-size:25px ;
+
+}
+paragraph ke drmiyan gap lany ke lye
+blog-text p {
+    margin: 10px;
+}
+
+background border bnany ke :lye
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+}
+blog-text p :first-child {
+    margin: 10px;
+}
+
+
+background border bnany ke :lye
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.csrd h4{
+    text-align: cenetr;
+}
+.card li{
+    font-size: 18;
+}
+
+#lower-image img{
+    width:50%;
+    height:auto;
+    text-align: center;
+}
